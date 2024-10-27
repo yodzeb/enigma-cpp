@@ -53,21 +53,21 @@ public:
 
   static Rotor* get_rotor(string model, int _rotorPosition, int _ringSetting) {
     if (model == "I") 
-      return Rotor::get_rotor ("I", _rotorPosition, _ringSetting);
+      return Rotor::get_rotor (1, _rotorPosition, _ringSetting);
     else if (model=="II")
-      return Rotor::get_rotor ("II", _rotorPosition, _ringSetting);
+      return Rotor::get_rotor (2, _rotorPosition, _ringSetting);
     else if (model=="III")
-      return Rotor::get_rotor ("III", _rotorPosition, _ringSetting);
+      return Rotor::get_rotor (3, _rotorPosition, _ringSetting);
     else if (model=="IV")
-      return Rotor::get_rotor ("IV", _rotorPosition, _ringSetting);
+      return Rotor::get_rotor (4, _rotorPosition, _ringSetting);
     else if (model=="V")
-      return Rotor::get_rotor ("V", _rotorPosition, _ringSetting);
+      return Rotor::get_rotor (5, _rotorPosition, _ringSetting);
     else if (model=="VI")
-      return Rotor::get_rotor ("VI", _rotorPosition, _ringSetting);
-    else if (model=="VI")
-      return Rotor::get_rotor ("VII", _rotorPosition, _ringSetting);
+      return Rotor::get_rotor (6, _rotorPosition, _ringSetting);
+    else if (model=="VII")
+      return Rotor::get_rotor (7, _rotorPosition, _ringSetting);
     else if (model=="VIII")
-      return Rotor::get_rotor ("VII", _rotorPosition, _ringSetting);
+      return Rotor::get_rotor (8, _rotorPosition, _ringSetting);
     else
       return Rotor::get_rotor ("ZZ", _rotorPosition, _ringSetting);
   }

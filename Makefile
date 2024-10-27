@@ -1,6 +1,6 @@
 all:
 	g++ -O3 -o e main.cpp
-	time ./e
+	#time ./e
 profile:
 	g++ -o e main.cpp -g -pg
 	./e
