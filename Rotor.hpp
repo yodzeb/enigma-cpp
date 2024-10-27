@@ -69,7 +69,7 @@ public:
     else if (model=="VIII")
       return Rotor::get_rotor (8, _rotorPosition, _ringSetting);
     else
-      return Rotor::get_rotor ("ZZ", _rotorPosition, _ringSetting);
+      return Rotor::get_rotor (0, _rotorPosition, _ringSetting);
   }
   
   Rotor(string _name, string encoding, int _rotorposition, int _ringsettings, int _notchposition, int _notchposition2) {
